@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Variables In JS</title>
+</head>
+<body>
+<h1>A Function Can Acces Variables Defined Inside The Function</h1>
+<button onclick="myfunction()">Click Me</button>
+<p id="p1"></p>
+<p id="p2"></p>
+<script>
+    var b=5;
+function myfunction()
+{
+var a= 20;
+document.getElementById("p1").innerHTML=b*a;
+}
+document.getElementById("p2").innerHTML=b;
+</script>
+</body>
+</html>
